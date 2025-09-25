@@ -1,9 +1,9 @@
 package com.example.expentrack.data.mapper
 
 import com.example.expentrack.data.local.entity.TransactionEntity
-import com.example.expentrack.domain.model.PaymentMethodType
-import com.example.expentrack.domain.model.PaymentProvider
-import com.example.expentrack.domain.model.Transaction
+import com.example.expentrack.domain.model.transaction.PaymentMethodType
+import com.example.expentrack.domain.model.transaction.PaymentProvider
+import com.example.expentrack.domain.model.transaction.Transaction
 
 fun TransactionEntity.toDomain(): Transaction {
     return Transaction(

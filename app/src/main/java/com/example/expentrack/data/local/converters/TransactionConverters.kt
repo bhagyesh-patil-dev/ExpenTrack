@@ -1,9 +1,9 @@
 package com.example.expentrack.data.local.converters
 
 import androidx.room.TypeConverter
-import com.example.expentrack.domain.model.Category
-import com.example.expentrack.domain.model.PaymentMethodType
-import com.example.expentrack.domain.model.TransactionType
+import com.example.expentrack.domain.model.transaction.Category
+import com.example.expentrack.domain.model.transaction.PaymentMethodType
+import com.example.expentrack.domain.model.transaction.TransactionType
 import java.util.Date
 
 class TransactionConverters {

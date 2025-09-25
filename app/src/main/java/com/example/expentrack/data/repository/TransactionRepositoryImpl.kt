@@ -3,7 +3,7 @@ package com.example.expentrack.data.repository
 import com.example.expentrack.data.local.dao.TransactionDao
 import com.example.expentrack.data.mapper.toDomain
 import com.example.expentrack.data.mapper.toEntity
-import com.example.expentrack.domain.model.Transaction
+import com.example.expentrack.domain.model.transaction.Transaction
 import com.example.expentrack.domain.repository.TransactionRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map

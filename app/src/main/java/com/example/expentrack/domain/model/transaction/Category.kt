@@ -1,4 +1,4 @@
-package com.example.expentrack.domain.model
+package com.example.expentrack.domain.model.transaction
 
 enum class Category(val displayName: String) {
     FOOD("Food"),

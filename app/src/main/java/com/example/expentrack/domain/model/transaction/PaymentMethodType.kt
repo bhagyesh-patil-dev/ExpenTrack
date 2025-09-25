@@ -1,4 +1,4 @@
-package com.example.expentrack.domain.model
+package com.example.expentrack.domain.model.transaction
 
 enum class PaymentMethodType(val displayName: String) {
     CASH("Cash"),

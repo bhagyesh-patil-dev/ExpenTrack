@@ -1,6 +1,6 @@
 package com.example.expentrack.domain.repository
 
-import com.example.expentrack.domain.model.Transaction
+import com.example.expentrack.domain.model.transaction.Transaction
 import kotlinx.coroutines.flow.Flow
 
 interface TransactionRepository {

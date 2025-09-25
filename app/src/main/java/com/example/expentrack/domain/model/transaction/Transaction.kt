@@ -1,4 +1,4 @@
-package com.example.expentrack.domain.model
+package com.example.expentrack.domain.model.transaction
 
 import java.util.Date
 import java.util.UUID
